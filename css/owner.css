@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+    background-image: url("../img/bg3.png");
+    background-attachment: fixed;
+    text-align: center;
+    font-family: sans-serif;
+    box-shadow: inset 0 0 0 2000px #1c1c1c7a;
+    opacity: 0.85;
+    
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-box {
+    width: 400px;
+    padding: 40px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  }
+  
+  .login-box h2 {
+    margin: 0 0 20px;
+    padding: 0;
+    text-align: center;
+    font-size: 22px;
+  }
+ 
+  .user-box {
+    
+    position: relative; 
+    font-size: 0;
+  } 
+  
+  .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: black;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    outline: none;
+    background: transparent;
+  }
+  
+  .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    color: black;
+  }
+  
+  .forgot-password-link {
+    color: #555;
+    font-size: 14px;
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .signup-link-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .signup-link {
+    color: #555;
+    font-size: 14px;
+    text-decoration: none;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
+  .signup-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Dialog box styles */
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dialog {
+    width: 400px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    position: relative;
+    z-index: 2;
+  }
+  
+  .dialog h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 22px;
+  }
+  
+  .dialog input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: black;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    outline: none;
+    background: transparent;
+  }
+  
+  .dialog label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    color: black;
+  }
+  
+  .dialog .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
